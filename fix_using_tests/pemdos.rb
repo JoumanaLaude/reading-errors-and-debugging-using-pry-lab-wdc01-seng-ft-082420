@@ -9,6 +9,7 @@ def snake_it_up(string)
     10.to_s * "s" + string
     # 10 * "s" + string
   else
+    binding.pry
     string
   end
 
