@@ -7,8 +7,6 @@ def snake_it_up(string)
   else
     string
   end
-
-puts snake_it_up
 binding.pry
-puts "hello"
+puts snake_it_up
 end
