@@ -1,7 +1,7 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def snake_it_up(string)
-  snake_it_up == "surprise!"
+  snake_it_up = "surprise!"
 
   puts snake_it_up
 
@@ -9,10 +9,8 @@ def snake_it_up(string)
     10.to_s * "s" + string
     # 10 * "s" + string
   else
-    binding.pry
     string
   end
 
-binding.pry
 
 end
